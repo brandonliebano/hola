@@ -1,0 +1,458 @@
+[2016-09-14 18:41:03] production.ERROR: ReflectionException: Class usuariotablaseeder does not exist in C:\xampp\htdocs\prueba\bootstrap\compiled.php:235
+Stack trace:
+#0 C:\xampp\htdocs\prueba\bootstrap\compiled.php(235): ReflectionClass->__construct('usuariotablasee...')
+#1 C:\xampp\htdocs\prueba\bootstrap\compiled.php(205): Illuminate\Container\Container->build('usuariotablasee...', Array)
+#2 C:\xampp\htdocs\prueba\bootstrap\compiled.php(583): Illuminate\Container\Container->make('usuariotablasee...', Array)
+#3 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(67): Illuminate\Foundation\Application->make('usuariotablasee...')
+#4 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(57): Illuminate\Database\Console\SeedCommand->getSeeder()
+#5 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\SeedCommand->fire()
+#6 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2016-09-14 18:41:39] production.ERROR: ReflectionException: Class UserTableSeeder does not exist in C:\xampp\htdocs\prueba\bootstrap\compiled.php:235
+Stack trace:
+#0 C:\xampp\htdocs\prueba\bootstrap\compiled.php(235): ReflectionClass->__construct('UserTableSeeder')
+#1 C:\xampp\htdocs\prueba\bootstrap\compiled.php(205): Illuminate\Container\Container->build('UserTableSeeder', Array)
+#2 C:\xampp\htdocs\prueba\bootstrap\compiled.php(583): Illuminate\Container\Container->make('UserTableSeeder', Array)
+#3 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(67): Illuminate\Foundation\Application->make('UserTableSeeder')
+#4 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(57): Illuminate\Database\Console\SeedCommand->getSeeder()
+#5 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\SeedCommand->fire()
+#6 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2016-09-14 18:42:15] production.ERROR: ReflectionException: Class UserTableSeeder does not exist in C:\xampp\htdocs\prueba\bootstrap\compiled.php:235
+Stack trace:
+#0 C:\xampp\htdocs\prueba\bootstrap\compiled.php(235): ReflectionClass->__construct('UserTableSeeder')
+#1 C:\xampp\htdocs\prueba\bootstrap\compiled.php(205): Illuminate\Container\Container->build('UserTableSeeder', Array)
+#2 C:\xampp\htdocs\prueba\bootstrap\compiled.php(583): Illuminate\Container\Container->make('UserTableSeeder', Array)
+#3 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(67): Illuminate\Foundation\Application->make('UserTableSeeder')
+#4 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(57): Illuminate\Database\Console\SeedCommand->getSeeder()
+#5 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\SeedCommand->fire()
+#6 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2016-09-14 18:42:32] production.ERROR: RuntimeException: The "--class[" option does not exist. in C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php:213
+Stack trace:
+#0 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(152): Symfony\Component\Console\Input\ArgvInput->addLongOption('class[', 'UserTableSeeder...')
+#1 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--class[=UserTa...')
+#2 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Input\Input.php(61): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(225): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2016-09-14 18:48:17] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to Illuminate\Exception\WhoopsDisplayer::display() must be an instance of Exception, instance of Error given, called in C:\xampp\htdocs\prueba\bootstrap\compiled.php on line 9417 and defined in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9417): Illuminate\Exception\WhoopsDisplayer->display(Object(Error))
+#1 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9369): Illuminate\Exception\Handler->displayException(Object(Error))
+#2 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9373): Illuminate\Exception\Handler->handleException(Object(Error))
+#3 [internal function]: Illuminate\Exception\Handler->handleUncaughtException(Object(Error))
+#4 {main}
+  thrown in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2016-09-14 18:51:07] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to Illuminate\Exception\WhoopsDisplayer::display() must be an instance of Exception, instance of Error given, called in C:\xampp\htdocs\prueba\bootstrap\compiled.php on line 9417 and defined in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9417): Illuminate\Exception\WhoopsDisplayer->display(Object(Error))
+#1 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9369): Illuminate\Exception\Handler->displayException(Object(Error))
+#2 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9373): Illuminate\Exception\Handler->handleException(Object(Error))
+#3 [internal function]: Illuminate\Exception\Handler->handleUncaughtException(Object(Error))
+#4 {main}
+  thrown in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2016-09-14 18:52:49] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to Illuminate\Exception\WhoopsDisplayer::display() must be an instance of Exception, instance of Error given, called in C:\xampp\htdocs\prueba\bootstrap\compiled.php on line 9417 and defined in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9417): Illuminate\Exception\WhoopsDisplayer->display(Object(Error))
+#1 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9369): Illuminate\Exception\Handler->displayException(Object(Error))
+#2 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9373): Illuminate\Exception\Handler->handleException(Object(Error))
+#3 [internal function]: Illuminate\Exception\Handler->handleUncaughtException(Object(Error))
+#4 {main}
+  thrown in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2016-09-14 18:53:24] production.ERROR: ReflectionException: Class UserTableSeeder does not exist in C:\xampp\htdocs\prueba\bootstrap\compiled.php:235
+Stack trace:
+#0 C:\xampp\htdocs\prueba\bootstrap\compiled.php(235): ReflectionClass->__construct('UserTableSeeder')
+#1 C:\xampp\htdocs\prueba\bootstrap\compiled.php(205): Illuminate\Container\Container->build('UserTableSeeder', Array)
+#2 C:\xampp\htdocs\prueba\bootstrap\compiled.php(583): Illuminate\Container\Container->make('UserTableSeeder', Array)
+#3 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(67): Illuminate\Foundation\Application->make('UserTableSeeder')
+#4 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(57): Illuminate\Database\Console\SeedCommand->getSeeder()
+#5 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\SeedCommand->fire()
+#6 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2016-09-14 18:54:48] production.ERROR: ReflectionException: Class UserTableSeeder does not exist in C:\xampp\htdocs\prueba\bootstrap\compiled.php:235
+Stack trace:
+#0 C:\xampp\htdocs\prueba\bootstrap\compiled.php(235): ReflectionClass->__construct('UserTableSeeder')
+#1 C:\xampp\htdocs\prueba\bootstrap\compiled.php(205): Illuminate\Container\Container->build('UserTableSeeder', Array)
+#2 C:\xampp\htdocs\prueba\bootstrap\compiled.php(583): Illuminate\Container\Container->make('UserTableSeeder', Array)
+#3 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(67): Illuminate\Foundation\Application->make('UserTableSeeder')
+#4 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(57): Illuminate\Database\Console\SeedCommand->getSeeder()
+#5 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\SeedCommand->fire()
+#6 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2016-09-14 18:55:25] production.ERROR: InvalidArgumentException: There are no commands defined in the "model" namespace. in C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php:516
+Stack trace:
+#0 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(550): Symfony\Component\Console\Application->findNamespace('model')
+#1 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('model:make')
+#2 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2016-09-14 18:55:29] production.ERROR: InvalidArgumentException: There are no commands defined in the "models" namespace. in C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php:516
+Stack trace:
+#0 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(550): Symfony\Component\Console\Application->findNamespace('models')
+#1 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('models:make')
+#2 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2016-09-14 18:55:44] production.ERROR: InvalidArgumentException: There are no commands defined in the "models" namespace. in C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php:516
+Stack trace:
+#0 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(550): Symfony\Component\Console\Application->findNamespace('models')
+#1 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('models:make')
+#2 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2016-09-14 18:55:48] production.ERROR: InvalidArgumentException: There are no commands defined in the "model" namespace. in C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php:516
+Stack trace:
+#0 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(550): Symfony\Component\Console\Application->findNamespace('model')
+#1 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('model:make')
+#2 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2016-09-14 18:57:18] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to Illuminate\Exception\WhoopsDisplayer::display() must be an instance of Exception, instance of Error given, called in C:\xampp\htdocs\prueba\bootstrap\compiled.php on line 9417 and defined in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9417): Illuminate\Exception\WhoopsDisplayer->display(Object(Error))
+#1 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9369): Illuminate\Exception\Handler->displayException(Object(Error))
+#2 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9373): Illuminate\Exception\Handler->handleException(Object(Error))
+#3 [internal function]: Illuminate\Exception\Handler->handleUncaughtException(Object(Error))
+#4 {main}
+  thrown in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2016-09-14 18:57:33] production.ERROR: ReflectionException: Class UserTableSeeder does not exist in C:\xampp\htdocs\prueba\bootstrap\compiled.php:235
+Stack trace:
+#0 C:\xampp\htdocs\prueba\bootstrap\compiled.php(235): ReflectionClass->__construct('UserTableSeeder')
+#1 C:\xampp\htdocs\prueba\bootstrap\compiled.php(205): Illuminate\Container\Container->build('UserTableSeeder', Array)
+#2 C:\xampp\htdocs\prueba\bootstrap\compiled.php(583): Illuminate\Container\Container->make('UserTableSeeder', Array)
+#3 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Seeder.php(55): Illuminate\Foundation\Application->make('UserTableSeeder')
+#4 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Seeder.php(37): Illuminate\Database\Seeder->resolve('UserTableSeeder')
+#5 C:\xampp\htdocs\prueba\app\database\seeds\DatabaseSeeder.php(8): Illuminate\Database\Seeder->call('UserTableSeeder')
+#6 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(57): DatabaseSeeder->run()
+#7 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\SeedCommand->fire()
+#8 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#14 {main} [] []
+[2016-09-14 19:02:05] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to Illuminate\Exception\WhoopsDisplayer::display() must be an instance of Exception, instance of Error given, called in C:\xampp\htdocs\prueba\bootstrap\compiled.php on line 9417 and defined in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9417): Illuminate\Exception\WhoopsDisplayer->display(Object(Error))
+#1 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9369): Illuminate\Exception\Handler->displayException(Object(Error))
+#2 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9373): Illuminate\Exception\Handler->handleException(Object(Error))
+#3 [internal function]: Illuminate\Exception\Handler->handleUncaughtException(Object(Error))
+#4 {main}
+  thrown in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2016-09-14 19:06:06] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to Illuminate\Exception\WhoopsDisplayer::display() must be an instance of Exception, instance of Error given, called in C:\xampp\htdocs\prueba\bootstrap\compiled.php on line 9417 and defined in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9417): Illuminate\Exception\WhoopsDisplayer->display(Object(Error))
+#1 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9369): Illuminate\Exception\Handler->displayException(Object(Error))
+#2 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9373): Illuminate\Exception\Handler->handleException(Object(Error))
+#3 [internal function]: Illuminate\Exception\Handler->handleUncaughtException(Object(Error))
+#4 {main}
+  thrown in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2016-09-14 19:12:49] production.ERROR: InvalidArgumentException: There are no commands defined in the "migration" namespace.
+
+Did you mean this?
+    migrate in C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php:516
+Stack trace:
+#0 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(550): Symfony\Component\Console\Application->findNamespace('migration')
+#1 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('migration:make')
+#2 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2016-09-14 19:16:48] production.ERROR: PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'prueba.productos' doesn't exist in C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php:389
+Stack trace:
+#0 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(389): PDO->prepare('delete from `pr...')
+#1 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'delete from `pr...', Array)
+#2 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('delete from `pr...', Array, Object(Closure))
+#3 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(394): Illuminate\Database\Connection->run('delete from `pr...', Array, Object(Closure))
+#4 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(351): Illuminate\Database\Connection->affectingStatement('delete from `pr...', Array)
+#5 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1977): Illuminate\Database\Connection->delete('delete from `pr...', Array)
+#6 C:\xampp\htdocs\prueba\app\database\seeds\DatabaseSeeder.php(32): Illuminate\Database\Query\Builder->delete()
+#7 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Seeder.php(37): ProductoTableSeeder->run()
+#8 C:\xampp\htdocs\prueba\app\database\seeds\DatabaseSeeder.php(15): Illuminate\Database\Seeder->call('ProductoTableSe...')
+#9 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(57): DatabaseSeeder->run()
+#10 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\SeedCommand->fire()
+#11 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#17 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'prueba.productos' doesn't exist (SQL: delete from `productos`) in C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php:625
+Stack trace:
+#0 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('delete from `pr...', Array, Object(Closure))
+#1 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(394): Illuminate\Database\Connection->run('delete from `pr...', Array, Object(Closure))
+#2 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(351): Illuminate\Database\Connection->affectingStatement('delete from `pr...', Array)
+#3 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1977): Illuminate\Database\Connection->delete('delete from `pr...', Array)
+#4 C:\xampp\htdocs\prueba\app\database\seeds\DatabaseSeeder.php(32): Illuminate\Database\Query\Builder->delete()
+#5 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Seeder.php(37): ProductoTableSeeder->run()
+#6 C:\xampp\htdocs\prueba\app\database\seeds\DatabaseSeeder.php(15): Illuminate\Database\Seeder->call('ProductoTableSe...')
+#7 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(57): DatabaseSeeder->run()
+#8 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\SeedCommand->fire()
+#9 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#15 {main} [] []
+[2016-09-14 19:18:44] production.ERROR: PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'prueba.productos' doesn't exist in C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php:389
+Stack trace:
+#0 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(389): PDO->prepare('delete from `pr...')
+#1 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'delete from `pr...', Array)
+#2 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('delete from `pr...', Array, Object(Closure))
+#3 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(394): Illuminate\Database\Connection->run('delete from `pr...', Array, Object(Closure))
+#4 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(351): Illuminate\Database\Connection->affectingStatement('delete from `pr...', Array)
+#5 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1977): Illuminate\Database\Connection->delete('delete from `pr...', Array)
+#6 C:\xampp\htdocs\prueba\app\database\seeds\DatabaseSeeder.php(26): Illuminate\Database\Query\Builder->delete()
+#7 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Seeder.php(37): UsuarioTableSeeder->run()
+#8 C:\xampp\htdocs\prueba\app\database\seeds\DatabaseSeeder.php(14): Illuminate\Database\Seeder->call('UsuarioTableSee...')
+#9 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(57): DatabaseSeeder->run()
+#10 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\SeedCommand->fire()
+#11 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#17 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'prueba.productos' doesn't exist (SQL: delete from `productos`) in C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php:625
+Stack trace:
+#0 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('delete from `pr...', Array, Object(Closure))
+#1 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(394): Illuminate\Database\Connection->run('delete from `pr...', Array, Object(Closure))
+#2 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(351): Illuminate\Database\Connection->affectingStatement('delete from `pr...', Array)
+#3 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1977): Illuminate\Database\Connection->delete('delete from `pr...', Array)
+#4 C:\xampp\htdocs\prueba\app\database\seeds\DatabaseSeeder.php(26): Illuminate\Database\Query\Builder->delete()
+#5 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Seeder.php(37): UsuarioTableSeeder->run()
+#6 C:\xampp\htdocs\prueba\app\database\seeds\DatabaseSeeder.php(14): Illuminate\Database\Seeder->call('UsuarioTableSee...')
+#7 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(57): DatabaseSeeder->run()
+#8 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\SeedCommand->fire()
+#9 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#15 {main} [] []
+[2016-09-14 19:20:01] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to Illuminate\Exception\WhoopsDisplayer::display() must be an instance of Exception, instance of ParseError given, called in C:\xampp\htdocs\prueba\bootstrap\compiled.php on line 9417 and defined in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9417): Illuminate\Exception\WhoopsDisplayer->display(Object(ParseError))
+#1 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9369): Illuminate\Exception\Handler->displayException(Object(ParseError))
+#2 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9373): Illuminate\Exception\Handler->handleException(Object(ParseError))
+#3 [internal function]: Illuminate\Exception\Handler->handleUncaughtException(Object(ParseError))
+#4 {main}
+  thrown in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2016-09-14 19:20:12] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to Illuminate\Exception\WhoopsDisplayer::display() must be an instance of Exception, instance of ParseError given, called in C:\xampp\htdocs\prueba\bootstrap\compiled.php on line 9417 and defined in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9417): Illuminate\Exception\WhoopsDisplayer->display(Object(ParseError))
+#1 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9369): Illuminate\Exception\Handler->displayException(Object(ParseError))
+#2 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9373): Illuminate\Exception\Handler->handleException(Object(ParseError))
+#3 [internal function]: Illuminate\Exception\Handler->handleUncaughtException(Object(ParseError))
+#4 {main}
+  thrown in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2016-09-14 19:21:23] production.ERROR: PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'prueba.productos' doesn't exist in C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php:389
+Stack trace:
+#0 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(389): PDO->prepare('delete from `pr...')
+#1 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'delete from `pr...', Array)
+#2 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('delete from `pr...', Array, Object(Closure))
+#3 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(394): Illuminate\Database\Connection->run('delete from `pr...', Array, Object(Closure))
+#4 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(351): Illuminate\Database\Connection->affectingStatement('delete from `pr...', Array)
+#5 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1977): Illuminate\Database\Connection->delete('delete from `pr...', Array)
+#6 C:\xampp\htdocs\prueba\app\database\seeds\DatabaseSeeder.php(24): Illuminate\Database\Query\Builder->delete()
+#7 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Seeder.php(37): UsuarioTableSeeder->run()
+#8 C:\xampp\htdocs\prueba\app\database\seeds\DatabaseSeeder.php(14): Illuminate\Database\Seeder->call('UsuarioTableSee...')
+#9 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(57): DatabaseSeeder->run()
+#10 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\SeedCommand->fire()
+#11 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#17 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'prueba.productos' doesn't exist (SQL: delete from `productos`) in C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php:625
+Stack trace:
+#0 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('delete from `pr...', Array, Object(Closure))
+#1 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(394): Illuminate\Database\Connection->run('delete from `pr...', Array, Object(Closure))
+#2 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(351): Illuminate\Database\Connection->affectingStatement('delete from `pr...', Array)
+#3 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1977): Illuminate\Database\Connection->delete('delete from `pr...', Array)
+#4 C:\xampp\htdocs\prueba\app\database\seeds\DatabaseSeeder.php(24): Illuminate\Database\Query\Builder->delete()
+#5 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Seeder.php(37): UsuarioTableSeeder->run()
+#6 C:\xampp\htdocs\prueba\app\database\seeds\DatabaseSeeder.php(14): Illuminate\Database\Seeder->call('UsuarioTableSee...')
+#7 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(57): DatabaseSeeder->run()
+#8 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\SeedCommand->fire()
+#9 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#15 {main} [] []
+[2016-09-14 19:22:56] production.ERROR: PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'prueba.productos' doesn't exist in C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php:369
+Stack trace:
+#0 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(369): PDO->prepare('insert into `pr...')
+#1 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `pr...', Array)
+#2 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `pr...', Array, Object(Closure))
+#3 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('insert into `pr...', Array, Object(Closure))
+#4 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(327): Illuminate\Database\Connection->statement('insert into `pr...', Array)
+#5 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\Processor.php(30): Illuminate\Database\Connection->insert('insert into `pr...', Array)
+#6 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1910): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `pr...', Array, 'id')
+#7 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#8 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(972): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\prueba\bootstrap\compiled.php(6913): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#10 C:\xampp\htdocs\prueba\bootstrap\compiled.php(6903): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 C:\xampp\htdocs\prueba\bootstrap\compiled.php(6860): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder), Array)
+#12 C:\xampp\htdocs\prueba\bootstrap\compiled.php(6506): Illuminate\Database\Eloquent\Model->save()
+#13 C:\xampp\htdocs\prueba\app\database\seeds\DatabaseSeeder.php(28): Illuminate\Database\Eloquent\Model::create(Array)
+#14 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Seeder.php(37): UsuarioTableSeeder->run()
+#15 C:\xampp\htdocs\prueba\app\database\seeds\DatabaseSeeder.php(14): Illuminate\Database\Seeder->call('UsuarioTableSee...')
+#16 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(57): DatabaseSeeder->run()
+#17 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\SeedCommand->fire()
+#18 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#24 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'prueba.productos' doesn't exist (SQL: insert into `productos` (`nombre`, `serial`, `updated_at`, `created_at`) values (steven, sdg3sdf5, 2016-09-14 19:22:56, 2016-09-14 19:22:56)) in C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php:625
+Stack trace:
+#0 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `pr...', Array, Object(Closure))
+#1 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('insert into `pr...', Array, Object(Closure))
+#2 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Connection.php(327): Illuminate\Database\Connection->statement('insert into `pr...', Array)
+#3 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\Processor.php(30): Illuminate\Database\Connection->insert('insert into `pr...', Array)
+#4 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1910): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `pr...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(972): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\prueba\bootstrap\compiled.php(6913): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 C:\xampp\htdocs\prueba\bootstrap\compiled.php(6903): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#9 C:\xampp\htdocs\prueba\bootstrap\compiled.php(6860): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 C:\xampp\htdocs\prueba\bootstrap\compiled.php(6506): Illuminate\Database\Eloquent\Model->save()
+#11 C:\xampp\htdocs\prueba\app\database\seeds\DatabaseSeeder.php(28): Illuminate\Database\Eloquent\Model::create(Array)
+#12 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Seeder.php(37): UsuarioTableSeeder->run()
+#13 C:\xampp\htdocs\prueba\app\database\seeds\DatabaseSeeder.php(14): Illuminate\Database\Seeder->call('UsuarioTableSee...')
+#14 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(57): DatabaseSeeder->run()
+#15 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\SeedCommand->fire()
+#16 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 C:\xampp\htdocs\prueba\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#22 {main} [] []
+[2016-09-14 19:25:25] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to Illuminate\Exception\WhoopsDisplayer::display() must be an instance of Exception, instance of ParseError given, called in C:\xampp\htdocs\prueba\bootstrap\compiled.php on line 9417 and defined in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9417): Illuminate\Exception\WhoopsDisplayer->display(Object(ParseError))
+#1 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9369): Illuminate\Exception\Handler->displayException(Object(ParseError))
+#2 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9373): Illuminate\Exception\Handler->handleException(Object(ParseError))
+#3 [internal function]: Illuminate\Exception\Handler->handleUncaughtException(Object(ParseError))
+#4 {main}
+  thrown in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2016-09-14 19:30:01] production.ERROR: InvalidArgumentException: There are no commands defined in the "make" namespace. in C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php:516
+Stack trace:
+#0 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(550): Symfony\Component\Console\Application->findNamespace('make')
+#1 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('make:model')
+#2 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2016-09-14 19:31:56] production.ERROR: InvalidArgumentException: There are no commands defined in the "generate" namespace. in C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php:516
+Stack trace:
+#0 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(550): Symfony\Component\Console\Application->findNamespace('generate')
+#1 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('generate:model')
+#2 C:\xampp\htdocs\prueba\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\prueba\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2016-09-14 19:37:02] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to Illuminate\Exception\WhoopsDisplayer::display() must be an instance of Exception, instance of Error given, called in C:\xampp\htdocs\prueba\bootstrap\compiled.php on line 9417 and defined in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9417): Illuminate\Exception\WhoopsDisplayer->display(Object(Error))
+#1 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9369): Illuminate\Exception\Handler->displayException(Object(Error))
+#2 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9373): Illuminate\Exception\Handler->handleException(Object(Error))
+#3 [internal function]: Illuminate\Exception\Handler->handleUncaughtException(Object(Error))
+#4 {main}
+  thrown in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2016-09-14 19:39:12] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to Illuminate\Exception\WhoopsDisplayer::display() must be an instance of Exception, instance of Error given, called in C:\xampp\htdocs\prueba\bootstrap\compiled.php on line 9417 and defined in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9417): Illuminate\Exception\WhoopsDisplayer->display(Object(Error))
+#1 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9369): Illuminate\Exception\Handler->displayException(Object(Error))
+#2 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9373): Illuminate\Exception\Handler->handleException(Object(Error))
+#3 [internal function]: Illuminate\Exception\Handler->handleUncaughtException(Object(Error))
+#4 {main}
+  thrown in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2016-09-14 19:42:42] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to Illuminate\Exception\WhoopsDisplayer::display() must be an instance of Exception, instance of Error given, called in C:\xampp\htdocs\prueba\bootstrap\compiled.php on line 9417 and defined in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9417): Illuminate\Exception\WhoopsDisplayer->display(Object(Error))
+#1 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9369): Illuminate\Exception\Handler->displayException(Object(Error))
+#2 C:\xampp\htdocs\prueba\bootstrap\compiled.php(9373): Illuminate\Exception\Handler->handleException(Object(Error))
+#3 [internal function]: Illuminate\Exception\Handler->handleUncaughtException(Object(Error))
+#4 {main}
+  thrown in C:\xampp\htdocs\prueba\bootstrap\compiled.php:9307
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
